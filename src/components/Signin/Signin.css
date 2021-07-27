@@ -1,0 +1,17 @@
+article { 
+    box-shadow: 4px 4px 0px black;
+    
+}
+
+
+.button-shadow {
+    box-shadow: 3px 3px 0px black;
+}
+
+.input-from  {
+    border: 2px solid black;
+    font-size: 12px;
+    height : 38px;
+    width: 350px;
+    outline: none;
+  }
