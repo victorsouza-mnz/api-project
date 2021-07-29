@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Rank = () => {
+const Rank = ({name, entries}) => {
     return(
         <div className='white'>
-            {'Victor, você ja usou essa API 2 vezes'}
+            {`${name}, você ja usou essa API ${entries} vezes`}
         </div>
     )
 }
