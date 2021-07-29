@@ -1,0 +1,29 @@
+button { 
+    border: none;
+    box-shadow: 3px 3px 0px black;
+}
+
+button {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+input[type=text] {
+    border: 2px solid black;
+    font-size: 12px;
+    outline: none;
+  }
+.form { 
+    box-shadow: 5px 5px 0px black;
+    width: 700px;
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,#A16A44 23.5%,rgba(29, 28, 28, 0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%, #5c3b24 24%,rgba(29, 28, 28, 0) 0)19px 30px,
+    linear-gradient(#A16A44 14%,rgba(29, 28, 28, 0) 0, rgba(29, 28, 28, 0) 85%,#A16A44 0)0 0,
+    linear-gradient(150deg,#A16A44 24%, #5c3b24 0, #5c3b24 26%,rgba(29, 28, 28, 0) 0,rgba(29, 28, 28, 0) 74%, #5c3b24 0, #5c3b24 76%,#A16A44 0)0 0,
+    linear-gradient(30deg,#A16A44 24%, #5c3b24 0, #5c3b24 26%,rgba(29, 28, 28, 0) 0,rgba(29, 28, 28, 0) 74%, #5c3b24 0, #5c3b24 76%,#A16A44 0)0 0,
+    linear-gradient(90deg, #5c3b24 2%,#A16A44 0,#A16A44 98%, #5c3b24 0%)0 0 #A16A44;
+    background-size: 40px 60px;
+}
