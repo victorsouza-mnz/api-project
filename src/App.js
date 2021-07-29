@@ -87,7 +87,7 @@ class App extends Component {
           </div>
           :
           (
-            route === 'signin' ?
+            route === 'signin' || route === 'signout' ?
               <div>
                 <Logo />
                 <Signin onRouteChange={this.onRouteChange} />
