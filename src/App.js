@@ -39,7 +39,6 @@ class App extends Component {
   }
 
   loadUser = (user) => {
-    console.log(user)
     this.setState({user : {
       id: user.id,
       name: user.name,
@@ -54,7 +53,6 @@ class App extends Component {
     const image = document.getElementById('imageinput')
     const width = Number(image.width)
     const height = Number(image.height)
-    console.log(width, height)
     return {
       leftCol: faceCoord.left_col * width,
       topRow: faceCoord.top_row * height,
@@ -64,7 +62,6 @@ class App extends Component {
   }
 
   displayFaceBox = (box) => {
-    console.log(box)
     this.setState({ box: box })
   }
 
